@@ -1,0 +1,55 @@
+/* src/Styles/FormStyles.css */
+
+/* Existing styles... */
+
+h2 {
+    color: white; /* Change heading color to white */
+    font-size: 2rem; /* Adjust size as needed */
+    margin-bottom: 1rem; /* Add some spacing below the heading */
+}
+
+/* Optionally, you could also create a specific class for headings */
+
+.heading {
+    color: white; /* Change heading color to white */
+    font-size: 2rem; /* Adjust size as needed */
+    margin-bottom: 1rem; /* Add some spacing below the heading */
+}
+
+.email-label,
+.username-label,
+.password-label {
+    color: white; /* Change text color to white */
+    font-size: 1.5rem; /* Increase font size */
+    margin-bottom: 0.5rem; /* Adjust spacing as needed */
+}
+
+.input-field {
+    font-size: 1.5rem; /* Increase font size for inputs */
+    color: white; /* Change input text color to white */
+    background-color: transparent; /* Make input background transparent */
+    border: 1px solid white; /* Change border color to white */
+    padding: 0.5rem; /* Add some padding for aesthetics */
+    margin-bottom: 1rem; /* Space between inputs */
+    width: 100%; /* Make input fields full width */
+    max-width: 400px; /* Set a maximum width for the inputs */
+}
+
+button {
+    font-size: 1.2rem; /* Increase button text size */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    font-size: 2.5rem; /* Increase font size */
+    margin-top: 1rem; /* Space above the error message */
+    text-align: center;
+}
+
+.success-message {
+    color: green; /* Green color for success messages */
+    font-size: 2.5rem; /* Increase font size */
+    margin-top: 1rem; /* Space above the success message */
+    text-align: center;
+}
+

@@ -1,0 +1,147 @@
+/* Container for the entire book management component */
+.book-management-container {
+    background-image: url('/Users/Z003LWS/my-app-sivashankari/src/public/media/book-mgmt.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+}
+
+/* Form container styling */
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Spacing between form elements */
+form div {
+    margin-bottom: 15px;
+}
+
+/* Labels for form fields */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Input fields for text */
+input[type="text"], input[type="checkbox"] {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Checkbox input field */
+input[type="checkbox"] {
+    width: auto;
+}
+
+/* General button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Hover effect for general buttons */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for delete button */
+li button.delete-button {
+    background-color: #f44336; /* Red background for delete */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for delete button */
+li button.delete-button:hover {
+    background-color: #d32f2f; /* Darker red */
+}
+
+/* Centered heading styles */
+h3, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Set to black for contrast */
+}
+
+/* Increased font size for "Your Books" heading */
+h3 {
+    font-size: 2rem;
+}
+
+/* Paragraph styling */
+p {
+    color: black;
+    font-size: 2.5rem; /* Large text for "No books found" */
+}
+
+/* Styling for the book list container */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 1000px; /* Expanded width for the book list */
+    margin: 0 auto;
+}
+
+/* Individual book item styling */
+li {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    width: 100%;
+    max-width: 1200px; /* Increased width for each book item */
+}
+
+/* Spacing between buttons inside list items */
+li button {
+    margin-left: 10px;
+}
+
+/* Styles for the notification bell and exchange requests text */
+.notification-bell {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notification-bell .fa-bell {
+    color: rgb(255, 213, 0); /* Change the bell color to yellow */
+    font-size: 3rem; /* Increase the size of the bell icon */
+}
+
+.exchange-requests-text {
+    font-size: 1.5rem; /* Increase font size */
+    color: rgb(255, 213, 0); /* Adjust color to fit your theme */
+    margin-top: 10px;
+}

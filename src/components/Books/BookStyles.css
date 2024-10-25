@@ -1,0 +1,89 @@
+/* General container for search form and results */
+.book-search-container {
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title for search page */
+.book-search-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Search form styles */
+.book-search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    flex: 1 1 calc(50% - 20px); /* Each input takes 50% of the container width minus spacing */
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%; /* Ensures the input spans full width within its container */
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+}
+
+/* Search button styling */
+.search-button {
+    flex-basis: 100%; /* Button spans full width */
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.search-button:hover {
+    background-color: #45a049;
+}
+
+/* Results section */
+.book-search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+/* Book card styles */
+.book-card {
+    background-color: rgb(173, 203, 24);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.book-author,
+.book-genre,
+.book-location,
+.book-availability {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
